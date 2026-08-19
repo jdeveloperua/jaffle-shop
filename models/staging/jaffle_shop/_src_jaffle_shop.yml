@@ -16,6 +16,8 @@ sources:
         config:
           freshness: null
       - name: orders
+      - name: products
+      - name: customers_test
         
         
 
