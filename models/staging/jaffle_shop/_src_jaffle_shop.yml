@@ -15,9 +15,17 @@ sources:
       - name: customers
         config:
           freshness: null
+        columns:
+          - name: id
+            data_tests:
+              - unique
+              - not_null
       - name: orders
-      - name: products
-      - name: customers_test
+        columns:
+        - name: id
+          data_tests:
+            - unique
+            - not_null
         
         
 
